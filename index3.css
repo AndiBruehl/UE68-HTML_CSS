@@ -1,0 +1,16 @@
+a {
+    color: blue;
+    text-decoration: none;
+  }
+  a:hover {
+    background-color: yellow;
+  }
+  a:visited {
+    color: purple;
+    text-decoration: line-through;
+    /*text-decoration: line-through; funktioniert nicht, keine Ahnung warum*/
+  }
+  a:active {
+    color: red;
+    text-decoration: underline;
+  }
